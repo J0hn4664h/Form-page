@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="Josh.css">
+  <title>Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form id="loginForm">
+      <div class="input-group">
+        <label for="username">Username</label>
+        <input type="text" id="username" required>
+      </div>
+      <div class="input-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" required>
+      </div>
+      <p class="error" id="errorMsg">Invalid username or password.</p>
+      <button type="submit" class="btn">Log In</button>
+    </form>
+    <div class="links">
+      <a href="#">Forgot Password?</a><br>
+      <a href="#">Create an Account</a>
+    </div>
+  </div>
+<script src="Josh.js"></script>
+</body>
+</html>
